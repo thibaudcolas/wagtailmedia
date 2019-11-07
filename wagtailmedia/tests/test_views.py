@@ -16,7 +16,6 @@ from wagtail.tests.utils import WagtailTestUtils
 from wagtailmedia import models
 from wagtailmedia.tests.testapp.models import EventPage, EventPageRelatedMedia
 
-
 class TestMediaIndexView(TestCase, WagtailTestUtils):
     def setUp(self):
         self.login()
